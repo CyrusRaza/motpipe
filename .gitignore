@@ -1,0 +1,25 @@
+# Environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Large / third-party assets kept local only
+models/
+data/
+output/
+external_repos/
+*.pt
+*.pth
+*.mp4
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
