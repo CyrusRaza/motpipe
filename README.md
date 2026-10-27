@@ -1,5 +1,9 @@
 # motpipe: swappable multi-object detection and tracking
 
+[![CI](https://github.com/CyrusRaza/motpipe/actions/workflows/ci.yml/badge.svg)](https://github.com/CyrusRaza/motpipe/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)
+
 Pick any detector and any tracker at runtime and run them on a video, webcam, or image sequence. The design follows the **strategy pattern**: detectors and trackers each sit behind a small interface, so every combination works without extra glue code.
 
 | Detectors (`--detector`) | Trackers (`--tracker`) |
